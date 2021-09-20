@@ -1,8 +1,7 @@
 #!/bin/bash
 
 #Storyline: Script to Add and Delete VPN Peers
-
-while getopts 'hdau:' OPTION ; do 
+while getopts 'hdau:' OPTION ; do
 
     case "$OPTION" in
 
@@ -24,15 +23,15 @@ while getopts 'hdau:' OPTION ; do
       ;;
   esac
 
-done 
+done
 
 # Check to see if -a, -d are empty or both specified throw an error
 if [[ (${u_del} == "" && ${u_add} == "") || (${u_del} != "" && ${u_add} != "") ]]
 then
-    echo "Please soecify -a -d and the -u and username."
+    echo "Please specify -a -d and the -u and username."
 fi
 
-#Check -u is specified 
+#Check -u is specified
 if [[ (${u_del} != "" || ${u_add} != "") && ${t_user} == "" ]]
 then
     echo "Plese specify a user (-u)"
@@ -42,7 +41,7 @@ fi
 
 #Delete User
 if [[ ${u_del} ]]
-then 
+then
     echo "Deleteing user..."
     sed -i "/# ${t_user} begin/,/# ${t_user} end/d" wg0.conf
 fi
