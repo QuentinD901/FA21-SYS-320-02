@@ -137,6 +137,3 @@ function security_menu() {
     esac
 security_menu
 }
-
-#Call the Main Func
-menu
