@@ -13,33 +13,3 @@
 [1;32mThe No Legacy Passwd Entries in Shadow is compliant. Current Value: .[0m
 [1;32mThe No Legacy Passwd Entries in Group is compliant. Current Value: .[0m
 [1;32mThe Only Root has UID of 0 is compliant. Current Value: root.[0m
-[1;32mThe Password Warn Age is compliant. Current Value: 7.[0m
-[1;32mThe SSH UsePAM is compliant. Current Value: yes.[0m
-[1;32mThe ICMP Redirect is compliant. Current Value: 0.[0m
-[1;32mThe Passwd File Permissions is compliant. Current Value: Access: (0644/-rw-r--r--)  Uid: (    0/    root)   Gid: (    0/    root).[0m
-[1;32mThe Shadow File Permissions is compliant. Current Value: Access: (0640/-rw-r-----)  Uid: (    0/    root)   Gid: (   42/  shadow).[0m
-[1;32mThe Group File Permissions is compliant. Current Value: Access: (0644/-rw-r--r--)  Uid: (    0/    root)   Gid: (    0/    root).[0m
-[1;32mThe Gshadow File Permissions is compliant. Current Value: Access: (0640/-rw-r-----)  Uid: (    0/    root)   Gid: (   42/  shadow).[0m
-[1;32mThe Passwd- File Permissions is compliant. Current Value: Access: (0644/-rw-r--r--)  Uid: (    0/    root)   Gid: (    0/    root).[0m
-[1;32mThe Shadow- File Permissions is compliant. Current Value: Access: (0640/-rw-r-----)  Uid: (    0/    root)   Gid: (   42/  shadow).[0m
-[1;32mThe Group- File Permissions is compliant. Current Value: Access: (0644/-rw-r--r--)  Uid: (    0/    root)   Gid: (    0/    root).[0m
-[1;32mThe Gshadow- File Permissions is compliant. Current Value: Access: (0640/-rw-r-----)  Uid: (    0/    root)   Gid: (   42/  shadow).[0m
-[1;32mThe No Legacy Passwd Entries in Passwd is compliant. Current Value: .[0m
-[1;32mThe No Legacy Passwd Entries in Shadow is compliant. Current Value: .[0m
-[1;32mThe No Legacy Passwd Entries in Group is compliant. Current Value: .[0m
-[1;32mThe Only Root has UID of 0 is compliant. Current Value: root.[0m
-[1;32mThe Password Warn Age is compliant. Current Value: 7.[0m
-[1;32mThe SSH UsePAM is compliant. Current Value: yes.[0m
-[1;32mThe ICMP Redirect is compliant. Current Value: 0.[0m
-[1;32mThe Passwd File Permissions is compliant. Current Value: Access: (0644/-rw-r--r--)  Uid: (    0/    root)   Gid: (    0/    root).[0m
-[1;32mThe Shadow File Permissions is compliant. Current Value: Access: (0640/-rw-r-----)  Uid: (    0/    root)   Gid: (   42/  shadow).[0m
-[1;32mThe Group File Permissions is compliant. Current Value: Access: (0644/-rw-r--r--)  Uid: (    0/    root)   Gid: (    0/    root).[0m
-[1;32mThe Gshadow File Permissions is compliant. Current Value: Access: (0640/-rw-r-----)  Uid: (    0/    root)   Gid: (   42/  shadow).[0m
-[1;32mThe Passwd- File Permissions is compliant. Current Value: Access: (0644/-rw-r--r--)  Uid: (    0/    root)   Gid: (    0/    root).[0m
-[1;32mThe Shadow- File Permissions is compliant. Current Value: Access: (0640/-rw-r-----)  Uid: (    0/    root)   Gid: (   42/  shadow).[0m
-[1;32mThe Group- File Permissions is compliant. Current Value: Access: (0644/-rw-r--r--)  Uid: (    0/    root)   Gid: (    0/    root).[0m
-[1;32mThe Gshadow- File Permissions is compliant. Current Value: Access: (0640/-rw-r-----)  Uid: (    0/    root)   Gid: (   42/  shadow).[0m
-[1;32mThe No Legacy Passwd Entries in Passwd is compliant. Current Value: .[0m
-[1;32mThe No Legacy Passwd Entries in Shadow is compliant. Current Value: .[0m
-[1;32mThe No Legacy Passwd Entries in Group is compliant. Current Value: .[0m
-[1;32mThe Only Root has UID of 0 is compliant. Current Value: root.[0m
