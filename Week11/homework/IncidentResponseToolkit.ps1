@@ -1,4 +1,4 @@
-﻿#Storyline: Incident Response Toolkit
+#Storyline: Incident Response Toolkit
 
 # Defines where to store CSVs 
 function my_Path() {
@@ -94,23 +94,23 @@ function view_Inc() {
 
   }ElseIf ($readInc -eq 'Password File Hash'){
 
-    Get-FileHash "C:\Users\Quentin DeGiorgio\Desktop\Champlain\SYS-320\passwords.txt" -Algorithm MD5 | Export-Csv -Path  "$myPath\$readInc.csv" -NoTypeInformation
+    Get-FileHash "D:\Champlain\Classes\2021FA\SYS320\passwords.txt" -Algorithm MD5 | Export-Csv -Path  "$myPath\$readInc.csv" -NoTypeInformation
 
   }ElseIf ($readInc -eq 'Create CSV Checksums'){
     
-    Get-ChildItem -path $myPath -Recurse -Force | Get-FileHash -Algorithm MD5 | Sort-Object -Property 'Path' | Export-Csv "$myPath\csvChecksums.csv" -NoTypeInformation
+    Get-ChildItem -path $myPath -Recurse -Force | Get-FileHash -Algorithm MD5 -ErrorAction SilentlyContinue | Sort-Object -Property 'Path' | Export-Csv "$myPath\csvChecksums.csv" -NoTypeInformation 
 
   }ElseIf ($readInc -eq 'Zip CSVs'){
   
     Compress-Archive -path $myPath  -DestinationPath "$myPath\..\IncidentCSVs"
-    Get-FileHash "$myPath\..\IncidentCSVs" -Algorithm MD5 | Out-File -FilePath "$myPath\..\IncidentCSVsChecksum.txt"
+    Get-FileHash "$myPath\..\IncidentCSVs.zip" -Algorithm MD5 -ErrorAction SilentlyContinue | Out-File -FilePath "$myPath\..\IncidentCSVsChecksum.txt" -ErrorAction SilentlyContinue
 
   }else { 
     select_Inc
   }
   
   # Prompt letting user know of success
-  Write-Host -BackgroundColor Green -ForegroundColor White "CSV has been created!"
+  Write-Host -BackgroundColor Green -ForegroundColor White "SUCESSFULLY CREATED!"
   sleep 2
 
   # Go back to select_Inc
